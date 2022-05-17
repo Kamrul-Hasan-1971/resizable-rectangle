@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'myApp';
+  width : number;
+  height : number;
+  top : number ;
+  left : number;
+
+  constructor()
+  {
+    this.collectDataFromJSONFile();
+  }
+
+  collectDataFromJSONFile()
+  {
+    this.width = 200;
+    this.height = 200;
+    this.top = 300;
+    this.left = 850 ;
+  }
 }
