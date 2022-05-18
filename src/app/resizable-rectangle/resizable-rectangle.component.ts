@@ -111,4 +111,5 @@ export class ResizableRectangleComponent {
     this.status = status;
     event.stopPropagation();
   }
+  
 }
