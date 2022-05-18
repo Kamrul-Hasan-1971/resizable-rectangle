@@ -5,6 +5,7 @@ import { Component, Input, HostListener } from '@angular/core';
   templateUrl: './resizable-rectangle.component.html',
   styleUrls: ['./resizable-rectangle.component.scss']
 })
+
 export class ResizableRectangleComponent {
 
   @Input('width') public width: number;
